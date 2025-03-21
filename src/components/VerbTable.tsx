@@ -37,7 +37,7 @@ const convertWordBlockToTsx = (wordBlocks: WordBlock[]) =>
 
 const VerbTable: React.FC<Props> = ({ verbs }) => {
   return (
-    <table className="min-w-full divide-y divide-gray-200 dark:divide-neutral-700">
+    <table className="table-fixed min-w-full divide-y divide-gray-200 dark:divide-neutral-700">
       <thead>
         <tr>
           <TableHeader />

@@ -6,7 +6,7 @@ type Props = {
 
 const TableCell: React.FC<Props> = ({ children }) => {
   return (
-    <td className="px-4 py-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
+    <td className="w-1/4 px-4 py-2 text-sm font-medium text-gray-800 dark:text-neutral-200">
       {children}
     </td>
   );
