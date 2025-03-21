@@ -21,9 +21,9 @@ type Props = {
 const pronouns: { [key: string]: WordBlock[] } = {
   one: [{ type: "normal", text: "eu" }],
   two: [{ type: "normal", text: "tu" }],
-  three: [{ type: "normal", text: "ele / ela / você" }],
+  three: [{ type: "normal", text: "ele*" }],
   four: [{ type: "normal", text: "nós" }],
-  five: [{ type: "normal", text: "eles / elas / vocês" }],
+  five: [{ type: "normal", text: "eles*" }],
 };
 
 const convertWordBlockToTsx = (wordBlocks: WordBlock[]) =>

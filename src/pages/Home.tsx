@@ -1294,22 +1294,198 @@ function Home() {
                     </Tab>
                     <Tab title="Regular Verbs">
                       <div className="flex flex-col">
-                        <ul>
-                          <li>-ar = ado</li>
-                          <li>-er = ido</li>
-                          <li>-ir = ido</li>
-                        </ul>
+                        <VerbTable
+                          verbs={[
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
+                                  text: "estudar",
+                                },
+                              ],
+                              conjugations: {
+                                one: [
+                                  { type: "normal", text: "tenho estud" },
+                                  { type: "highlight", text: "ado" },
+                                ],
+                                two: [
+                                  { type: "normal", text: "tens estud" },
+                                  { type: "highlight", text: "ado" },
+                                ],
+                                three: [
+                                  { type: "normal", text: "tem estud" },
+                                  { type: "highlight", text: "ado" },
+                                ],
+                                four: [
+                                  { type: "normal", text: "temos estud" },
+                                  { type: "highlight", text: "ado" },
+                                ],
+                                five: [
+                                  { type: "normal", text: "têm estud" },
+                                  { type: "highlight", text: "ado" },
+                                ],
+                              },
+                            },
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
+                                  text: "comer",
+                                },
+                              ],
+                              conjugations: {
+                                one: [
+                                  { type: "normal", text: "tenho com" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                two: [
+                                  { type: "normal", text: "tens com" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                three: [
+                                  { type: "normal", text: "tem com" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                four: [
+                                  { type: "normal", text: "temos com" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                five: [
+                                  { type: "normal", text: "têm com" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                              },
+                            },
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
+                                  text: "partir",
+                                },
+                              ],
+                              conjugations: {
+                                one: [
+                                  { type: "normal", text: "tenho part" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                two: [
+                                  { type: "normal", text: "tens part" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                three: [
+                                  { type: "normal", text: "tem part" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                four: [
+                                  { type: "normal", text: "temos part" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                five: [
+                                  { type: "normal", text: "têm part" },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                              },
+                            },
+                          ]}
+                        />
                       </div>
                     </Tab>
                     <Tab title="Irregular Verbs">
                       <div className="flex flex-col">
-                        <ul>
-                          <li>fazer = feito</li>
-                          <li>ir = ido</li>
-                          <li>abrir = aberto</li>
-                          <li>vir = vindo</li>
-                          <li>ver = visto</li>
-                        </ul>
+                        <VerbTable
+                          verbs={[
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
+                                  text: "fazer",
+                                },
+                              ],
+                              conjugations: {
+                                one: [
+                                  { type: "normal", text: "tenho " },
+                                  { type: "highlight", text: "feito" },
+                                ],
+                                two: [
+                                  { type: "normal", text: "tens " },
+                                  { type: "highlight", text: "feito" },
+                                ],
+                                three: [
+                                  { type: "normal", text: "tem " },
+                                  { type: "highlight", text: "feito" },
+                                ],
+                                four: [
+                                  { type: "normal", text: "temos " },
+                                  { type: "highlight", text: "feito" },
+                                ],
+                                five: [
+                                  { type: "normal", text: "têm " },
+                                  { type: "highlight", text: "feito" },
+                                ],
+                              },
+                            },
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
+                                  text: "ir",
+                                },
+                              ],
+                              conjugations: {
+                                one: [
+                                  { type: "normal", text: "tenho " },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                two: [
+                                  { type: "normal", text: "tens " },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                three: [
+                                  { type: "normal", text: "tem " },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                four: [
+                                  { type: "normal", text: "temos " },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                                five: [
+                                  { type: "normal", text: "têm " },
+                                  { type: "highlight", text: "ido" },
+                                ],
+                              },
+                            },
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
+                                  text: "abrir",
+                                },
+                              ],
+                              conjugations: {
+                                one: [
+                                  { type: "normal", text: "tenho " },
+                                  { type: "highlight", text: "aberto" },
+                                ],
+                                two: [
+                                  { type: "normal", text: "tens " },
+                                  { type: "highlight", text: "aberto" },
+                                ],
+                                three: [
+                                  { type: "normal", text: "tem " },
+                                  { type: "highlight", text: "aberto" },
+                                ],
+                                four: [
+                                  { type: "normal", text: "temos " },
+                                  { type: "highlight", text: "aberto" },
+                                ],
+                                five: [
+                                  { type: "normal", text: "têm " },
+                                  { type: "highlight", text: "aberto" },
+                                ],
+                              },
+                            },
+                          ]}
+                        />
                       </div>
                     </Tab>
                     <Tab title="Resources (4)">
@@ -1602,7 +1778,7 @@ function Home() {
                                     <span className="font-bold">zer</span> have
                                     have regular conjugations except the{" "}
                                     <span className="font-bold">zer</span> is
-                                    replaces with{" "}
+                                    replaced with{" "}
                                     <span className="font-bold">r</span>
                                   </li>
                                 </ul>
@@ -1711,23 +1887,23 @@ function Home() {
                                     conjugations: {
                                       one: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "ei" },
+                                        { type: "highlight", text: "asse" },
                                       ],
                                       two: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "as" },
+                                        { type: "highlight", text: "asses" },
                                       ],
                                       three: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "a" },
+                                        { type: "highlight", text: "asse" },
                                       ],
                                       four: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "amos" },
+                                        { type: "highlight", text: "ássemos" },
                                       ],
                                       five: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "am" },
+                                        { type: "highlight", text: "assem" },
                                       ],
                                     },
                                   },
@@ -1738,23 +1914,23 @@ function Home() {
                                     conjugations: {
                                       one: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "o" },
+                                        { type: "highlight", text: "esse" },
                                       ],
                                       two: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "es" },
+                                        { type: "highlight", text: "esses" },
                                       ],
                                       three: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "e" },
+                                        { type: "highlight", text: "esse" },
                                       ],
                                       four: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "emos" },
+                                        { type: "highlight", text: "êssemos" },
                                       ],
                                       five: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "em" },
+                                        { type: "highlight", text: "essem" },
                                       ],
                                     },
                                   },
@@ -1765,23 +1941,23 @@ function Home() {
                                     conjugations: {
                                       one: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "o" },
+                                        { type: "highlight", text: "isse" },
                                       ],
                                       two: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "es" },
+                                        { type: "highlight", text: "isses" },
                                       ],
                                       three: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "e" },
+                                        { type: "highlight", text: "isse" },
                                       ],
                                       four: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "imos" },
+                                        { type: "highlight", text: "íssemos" },
                                       ],
                                       five: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "em" },
+                                        { type: "highlight", text: "issem" },
                                       ],
                                     },
                                   },
@@ -1793,18 +1969,25 @@ function Home() {
                                 </div>
                                 <ul className="pb-4 list-disc ml-4 text-sm">
                                   <li>
-                                    <span className="font-bold">eu</span> always
-                                    ends in{" "}
-                                    <span className="font-bold">-o</span>
+                                    Take the{" "}
+                                    <span className="font-bold">eles</span>{" "}
+                                    conjugation of the preterito perfeito tense.
                                   </li>
                                   <li>
-                                    <span className="font-bold">-ar verbs</span>{" "}
-                                    use{" "}
-                                    <span className="font-bold">
-                                      -a based endings
-                                    </span>{" "}
-                                    except for the{" "}
-                                    <span className="font-bold">eu</span>
+                                    Remove the{" "}
+                                    <span className="font-bold">ram</span> from
+                                    the end and replace with{" "}
+                                    <span className="font-bold">sse</span> (eg.
+                                    estudar = estudaram = estudasse), to get the
+                                    base
+                                  </li>
+                                  <li>
+                                    Add the endings (none, s, none, mos, m)
+                                  </li>
+                                  <li>
+                                    The <span className="font-bold">nós</span>{" "}
+                                    conjugation has an accent applied before the{" "}
+                                    <span className="font-bold">sse</span>.
                                   </li>
                                 </ul>
                               </div>
@@ -1823,14 +2006,25 @@ function Home() {
                                   {
                                     infinite: [{ type: "normal", text: "ser" }],
                                     conjugations: {
-                                      one: [{ type: "highlight", text: "sou" }],
-                                      two: [{ type: "highlight", text: "és" }],
-                                      three: [{ type: "highlight", text: "é" }],
+                                      one: [
+                                        { type: "highlight", text: "fo" },
+                                        { type: "normal", text: "sse" },
+                                      ],
+                                      two: [
+                                        { type: "highlight", text: "fo" },
+                                        { type: "normal", text: "sses" },
+                                      ],
+                                      three: [
+                                        { type: "highlight", text: "fo" },
+                                        { type: "normal", text: "sse" },
+                                      ],
                                       four: [
-                                        { type: "highlight", text: "somos" },
+                                        { type: "highlight", text: "fo" },
+                                        { type: "normal", text: "ssemos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "são" },
+                                        { type: "highlight", text: "fo" },
+                                        { type: "normal", text: "ssem" },
                                       ],
                                     },
                                   },
@@ -1840,44 +2034,85 @@ function Home() {
                                     ],
                                     conjugations: {
                                       one: [
-                                        { type: "highlight", text: "estou" },
+                                        { type: "highlight", text: "estive" },
+                                        { type: "normal", text: "sse" },
                                       ],
                                       two: [
-                                        { type: "highlight", text: "estás" },
+                                        { type: "highlight", text: "estive" },
+                                        { type: "normal", text: "sses" },
                                       ],
                                       three: [
-                                        { type: "highlight", text: "está" },
+                                        { type: "highlight", text: "estive" },
+                                        { type: "normal", text: "sse" },
                                       ],
                                       four: [
-                                        { type: "highlight", text: "estamos" },
+                                        { type: "highlight", text: "estive" },
+                                        { type: "normal", text: "ssemos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "estão" },
+                                        { type: "highlight", text: "estive" },
+                                        { type: "normal", text: "ssem" },
                                       ],
                                     },
                                   },
                                   {
-                                    infinite: [{ type: "normal", text: "ter" }],
+                                    infinite: [{ type: "normal", text: "dar" }],
                                     conjugations: {
                                       one: [
-                                        { type: "highlight", text: "tenho" },
+                                        { type: "highlight", text: "de" },
+                                        { type: "normal", text: "sse" },
                                       ],
                                       two: [
-                                        { type: "highlight", text: "tens" },
+                                        { type: "highlight", text: "de" },
+                                        { type: "normal", text: "sses" },
                                       ],
                                       three: [
-                                        { type: "highlight", text: "tem" },
+                                        { type: "highlight", text: "de" },
+                                        { type: "normal", text: "sse" },
                                       ],
                                       four: [
-                                        { type: "highlight", text: "temos" },
+                                        { type: "highlight", text: "de" },
+                                        { type: "normal", text: "ssemos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "têm" },
+                                        { type: "highlight", text: "de" },
+                                        { type: "normal", text: "ssem" },
                                       ],
                                     },
                                   },
                                 ]}
                               />
+                              <div className="p-4">
+                                <div className="text-sm font-bold">
+                                  Tips to remember
+                                </div>
+                                <ul className="pb-4 list-disc ml-4 text-sm">
+                                  <li>
+                                    Regular and irregular verbs follow the same
+                                    rule.
+                                  </li>
+                                  <li>
+                                    Take the{" "}
+                                    <span className="font-bold">eles</span>{" "}
+                                    conjugation of the preterito perfeito tense.
+                                  </li>
+                                  <li>
+                                    Remove the{" "}
+                                    <span className="font-bold">ram</span> from
+                                    the end and replace with{" "}
+                                    <span className="font-bold">sse</span> (eg.
+                                    ser = foram = fosse), to get the base
+                                  </li>
+                                  <li>
+                                    Add the endings (none, s, none, mos, m)
+                                  </li>
+                                  <li>
+                                    The <span className="font-bold">nós</span>{" "}
+                                    conjugation has an accent applied before the{" "}
+                                    <span className="font-bold">sse</span>.
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -1980,23 +2215,23 @@ function Home() {
                                     conjugations: {
                                       one: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "ei" },
+                                        { type: "highlight", text: "e" },
                                       ],
                                       two: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "as" },
+                                        { type: "highlight", text: "es" },
                                       ],
                                       three: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "a" },
+                                        { type: "highlight", text: "e" },
                                       ],
                                       four: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "amos" },
+                                        { type: "highlight", text: "emos" },
                                       ],
                                       five: [
                                         { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "am" },
+                                        { type: "highlight", text: "em" },
                                       ],
                                     },
                                   },
@@ -2007,23 +2242,23 @@ function Home() {
                                     conjugations: {
                                       one: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "o" },
+                                        { type: "highlight", text: "a" },
                                       ],
                                       two: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "es" },
+                                        { type: "highlight", text: "as" },
                                       ],
                                       three: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "e" },
+                                        { type: "highlight", text: "a" },
                                       ],
                                       four: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "emos" },
+                                        { type: "highlight", text: "amos" },
                                       ],
                                       five: [
                                         { type: "normal", text: "com" },
-                                        { type: "highlight", text: "em" },
+                                        { type: "highlight", text: "am" },
                                       ],
                                     },
                                   },
@@ -2034,23 +2269,23 @@ function Home() {
                                     conjugations: {
                                       one: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "o" },
+                                        { type: "highlight", text: "a" },
                                       ],
                                       two: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "es" },
+                                        { type: "highlight", text: "as" },
                                       ],
                                       three: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "e" },
+                                        { type: "highlight", text: "a" },
                                       ],
                                       four: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "imos" },
+                                        { type: "highlight", text: "amos" },
                                       ],
                                       five: [
                                         { type: "normal", text: "part" },
-                                        { type: "highlight", text: "em" },
+                                        { type: "highlight", text: "am" },
                                       ],
                                     },
                                   },
@@ -2062,18 +2297,20 @@ function Home() {
                                 </div>
                                 <ul className="pb-4 list-disc ml-4 text-sm">
                                   <li>
-                                    <span className="font-bold">eu</span> always
-                                    ends in{" "}
-                                    <span className="font-bold">-o</span>
+                                    <span className="font-bold">-ar verbs</span>{" "}
+                                    are reversed to use{" "}
+                                    <span className="font-bold">
+                                      -e based endings
+                                    </span>
                                   </li>
                                   <li>
-                                    <span className="font-bold">-ar verbs</span>{" "}
-                                    use{" "}
+                                    <span className="font-bold">
+                                      -er/-ir verbs
+                                    </span>{" "}
+                                    are reversed to use{" "}
                                     <span className="font-bold">
                                       -a based endings
-                                    </span>{" "}
-                                    except for the{" "}
-                                    <span className="font-bold">eu</span>
+                                    </span>
                                   </li>
                                 </ul>
                               </div>
@@ -2092,36 +2329,25 @@ function Home() {
                                   {
                                     infinite: [{ type: "normal", text: "ser" }],
                                     conjugations: {
-                                      one: [{ type: "highlight", text: "sou" }],
-                                      two: [{ type: "highlight", text: "és" }],
-                                      three: [{ type: "highlight", text: "é" }],
-                                      four: [
-                                        { type: "highlight", text: "somos" },
-                                      ],
-                                      five: [
-                                        { type: "highlight", text: "são" },
-                                      ],
-                                    },
-                                  },
-                                  {
-                                    infinite: [
-                                      { type: "normal", text: "estar" },
-                                    ],
-                                    conjugations: {
                                       one: [
-                                        { type: "highlight", text: "estou" },
+                                        { type: "highlight", text: "sej" },
+                                        { type: "normal", text: "a" },
                                       ],
                                       two: [
-                                        { type: "highlight", text: "estás" },
+                                        { type: "highlight", text: "sej" },
+                                        { type: "normal", text: "as" },
                                       ],
                                       three: [
-                                        { type: "highlight", text: "está" },
+                                        { type: "highlight", text: "sej" },
+                                        { type: "normal", text: "a" },
                                       ],
                                       four: [
-                                        { type: "highlight", text: "estamos" },
+                                        { type: "highlight", text: "sej" },
+                                        { type: "normal", text: "amos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "estão" },
+                                        { type: "highlight", text: "sej" },
+                                        { type: "normal", text: "am" },
                                       ],
                                     },
                                   },
@@ -2129,24 +2355,78 @@ function Home() {
                                     infinite: [{ type: "normal", text: "ter" }],
                                     conjugations: {
                                       one: [
-                                        { type: "highlight", text: "tenho" },
+                                        { type: "highlight", text: "tenh" },
+                                        { type: "normal", text: "a" },
                                       ],
                                       two: [
-                                        { type: "highlight", text: "tens" },
+                                        { type: "highlight", text: "tenh" },
+                                        { type: "normal", text: "as" },
                                       ],
                                       three: [
-                                        { type: "highlight", text: "tem" },
+                                        { type: "highlight", text: "tenh" },
+                                        { type: "normal", text: "a" },
                                       ],
                                       four: [
-                                        { type: "highlight", text: "temos" },
+                                        { type: "highlight", text: "tenh" },
+                                        { type: "normal", text: "amos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "têm" },
+                                        { type: "highlight", text: "tenh" },
+                                        { type: "normal", text: "am" },
+                                      ],
+                                    },
+                                  },
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "trazer" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "trag" },
+                                        { type: "normal", text: "a" },
+                                      ],
+                                      two: [
+                                        { type: "highlight", text: "trag" },
+                                        { type: "normal", text: "as" },
+                                      ],
+                                      three: [
+                                        { type: "highlight", text: "trag" },
+                                        { type: "normal", text: "a" },
+                                      ],
+                                      four: [
+                                        { type: "highlight", text: "trag" },
+                                        { type: "normal", text: "amos" },
+                                      ],
+                                      five: [
+                                        { type: "highlight", text: "trag" },
+                                        { type: "normal", text: "am" },
                                       ],
                                     },
                                   },
                                 ]}
                               />
+                              <div className="p-4">
+                                <div className="text-sm font-bold">
+                                  Tips to remember
+                                </div>
+                                <ul className="pb-4 list-disc ml-4 text-sm">
+                                  <li>
+                                    <span>
+                                      In most cases the base of the irregular
+                                      verb comes from the present tense "eu"
+                                      conjugation. Then change the endings based
+                                      on the regular conjugations (-ar vs
+                                      -er/-ir)
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span>
+                                      Example: trazer = trago = trag + endings
+                                      (follow -er rules)
+                                    </span>
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -2248,24 +2528,22 @@ function Home() {
                                     ],
                                     conjugations: {
                                       one: [
-                                        { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "ei" },
+                                        { type: "normal", text: "estudar" },
                                       ],
                                       two: [
-                                        { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "as" },
+                                        { type: "normal", text: "estudar" },
+                                        { type: "highlight", text: "es" },
                                       ],
                                       three: [
-                                        { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "a" },
+                                        { type: "normal", text: "estudar" },
                                       ],
                                       four: [
-                                        { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "amos" },
+                                        { type: "normal", text: "estudar" },
+                                        { type: "highlight", text: "mos" },
                                       ],
                                       five: [
-                                        { type: "normal", text: "estud" },
-                                        { type: "highlight", text: "am" },
+                                        { type: "normal", text: "estudar" },
+                                        { type: "highlight", text: "em" },
                                       ],
                                     },
                                   },
@@ -2274,24 +2552,20 @@ function Home() {
                                       { type: "normal", text: "com(er)" },
                                     ],
                                     conjugations: {
-                                      one: [
-                                        { type: "normal", text: "com" },
-                                        { type: "highlight", text: "o" },
-                                      ],
+                                      one: [{ type: "normal", text: "comer" }],
                                       two: [
-                                        { type: "normal", text: "com" },
+                                        { type: "normal", text: "comer" },
                                         { type: "highlight", text: "es" },
                                       ],
                                       three: [
-                                        { type: "normal", text: "com" },
-                                        { type: "highlight", text: "e" },
+                                        { type: "normal", text: "comer" },
                                       ],
                                       four: [
-                                        { type: "normal", text: "com" },
-                                        { type: "highlight", text: "emos" },
+                                        { type: "normal", text: "comer" },
+                                        { type: "highlight", text: "mos" },
                                       ],
                                       five: [
-                                        { type: "normal", text: "com" },
+                                        { type: "normal", text: "comer" },
                                         { type: "highlight", text: "em" },
                                       ],
                                     },
@@ -2301,24 +2575,20 @@ function Home() {
                                       { type: "normal", text: "part(ir)" },
                                     ],
                                     conjugations: {
-                                      one: [
-                                        { type: "normal", text: "part" },
-                                        { type: "highlight", text: "o" },
-                                      ],
+                                      one: [{ type: "normal", text: "partir" }],
                                       two: [
-                                        { type: "normal", text: "part" },
+                                        { type: "normal", text: "partir" },
                                         { type: "highlight", text: "es" },
                                       ],
                                       three: [
-                                        { type: "normal", text: "part" },
-                                        { type: "highlight", text: "e" },
+                                        { type: "normal", text: "partir" },
                                       ],
                                       four: [
-                                        { type: "normal", text: "part" },
-                                        { type: "highlight", text: "imos" },
+                                        { type: "normal", text: "partir" },
+                                        { type: "highlight", text: "mos" },
                                       ],
                                       five: [
-                                        { type: "normal", text: "part" },
+                                        { type: "normal", text: "partir" },
                                         { type: "highlight", text: "em" },
                                       ],
                                     },
@@ -2331,18 +2601,8 @@ function Home() {
                                 </div>
                                 <ul className="pb-4 list-disc ml-4 text-sm">
                                   <li>
-                                    <span className="font-bold">eu</span> always
-                                    ends in{" "}
-                                    <span className="font-bold">-o</span>
-                                  </li>
-                                  <li>
-                                    <span className="font-bold">-ar verbs</span>{" "}
-                                    use{" "}
-                                    <span className="font-bold">
-                                      -a based endings
-                                    </span>{" "}
-                                    except for the{" "}
-                                    <span className="font-bold">eu</span>
+                                    All regular verbs are the infinitive +
+                                    endings (none, es, none, mos, em)
                                   </li>
                                 </ul>
                               </div>
@@ -2359,38 +2619,48 @@ function Home() {
                               <VerbTable
                                 verbs={[
                                   {
-                                    infinite: [{ type: "normal", text: "ser" }],
+                                    infinite: [
+                                      { type: "normal", text: "fazer" },
+                                    ],
                                     conjugations: {
-                                      one: [{ type: "highlight", text: "sou" }],
-                                      two: [{ type: "highlight", text: "és" }],
-                                      three: [{ type: "highlight", text: "é" }],
+                                      one: [
+                                        { type: "highlight", text: "fizer" },
+                                      ],
+                                      two: [
+                                        { type: "highlight", text: "fizer" },
+                                        { type: "normal", text: "es" },
+                                      ],
+                                      three: [
+                                        { type: "highlight", text: "fizer" },
+                                      ],
                                       four: [
-                                        { type: "highlight", text: "somos" },
+                                        { type: "highlight", text: "fizer" },
+                                        { type: "normal", text: "mos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "são" },
+                                        { type: "highlight", text: "fizer" },
+                                        { type: "normal", text: "em" },
                                       ],
                                     },
                                   },
                                   {
-                                    infinite: [
-                                      { type: "normal", text: "estar" },
-                                    ],
+                                    infinite: [{ type: "normal", text: "ser" }],
                                     conjugations: {
-                                      one: [
-                                        { type: "highlight", text: "estou" },
-                                      ],
+                                      one: [{ type: "highlight", text: "for" }],
                                       two: [
-                                        { type: "highlight", text: "estás" },
+                                        { type: "highlight", text: "for" },
+                                        { type: "normal", text: "es" },
                                       ],
                                       three: [
-                                        { type: "highlight", text: "está" },
+                                        { type: "highlight", text: "for" },
                                       ],
                                       four: [
-                                        { type: "highlight", text: "estamos" },
+                                        { type: "highlight", text: "for" },
+                                        { type: "normal", text: "mos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "estão" },
+                                        { type: "highlight", text: "for" },
+                                        { type: "normal", text: "em" },
                                       ],
                                     },
                                   },
@@ -2398,24 +2668,48 @@ function Home() {
                                     infinite: [{ type: "normal", text: "ter" }],
                                     conjugations: {
                                       one: [
-                                        { type: "highlight", text: "tenho" },
+                                        { type: "highlight", text: "tiver" },
                                       ],
                                       two: [
-                                        { type: "highlight", text: "tens" },
+                                        { type: "highlight", text: "tiver" },
+                                        { type: "normal", text: "es" },
                                       ],
                                       three: [
-                                        { type: "highlight", text: "tem" },
+                                        { type: "highlight", text: "tiver" },
                                       ],
                                       four: [
-                                        { type: "highlight", text: "temos" },
+                                        { type: "highlight", text: "tiver" },
+                                        { type: "normal", text: "mos" },
                                       ],
                                       five: [
-                                        { type: "highlight", text: "têm" },
+                                        { type: "highlight", text: "tiver" },
+                                        { type: "normal", text: "em" },
                                       ],
                                     },
                                   },
                                 ]}
                               />
+                              <div className="p-4">
+                                <div className="text-sm font-bold">
+                                  Tips to remember
+                                </div>
+                                <ul className="pb-4 list-disc ml-4 text-sm">
+                                  <li>
+                                    Take the{" "}
+                                    <span className="font-bold">eles</span>{" "}
+                                    conjugation of the preterito perfeito tense.
+                                  </li>
+                                  <li>
+                                    Remove the{" "}
+                                    <span className="font-bold">am</span> from
+                                    the end (eg. fazer = fizeram = fizer), to
+                                    get the base
+                                  </li>
+                                  <li>
+                                    Apply the regular verb rules with the base.
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
