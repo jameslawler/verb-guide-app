@@ -12,18 +12,15 @@ function Home() {
       <div className="bg-gray-800 text-white">
         <div className="container mx-auto my-8">
           <div className="mb-4">
-            <h1 className="text-4xl font-bold text-white px-2 md:px-0">
+            <h1 className="text-2xl md:text-4l font-bold text-white px-2 md:px-0">
               Guide to <span>Portuguese</span> tenses
             </h1>
-            <p>Indicativo</p>
-            <p>Conuntivo</p>
-            <p>Imperativo</p>
           </div>
         </div>
       </div>
       <div className="bg-gray-100">
         <div className="container mx-auto my-8">
-          <div className="bg-gray-100 rounded-lg p-0 md:p-8">
+          <div className="bg-gray-100 rounded-lg p-2 md:p-8">
             <div className="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-8">
               <div className="flex flex-col gap-4">
                 <Card title="Presente do Indicativo" tag="Fact / Truth">
