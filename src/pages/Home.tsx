@@ -1297,28 +1297,43 @@ function Home() {
                               infinite: [
                                 {
                                   type: "normal",
+                                  text: "",
+                                },
+                              ],
+                              conjugations: {
+                                one: [{ type: "normal", text: "tenho" }],
+                                two: [{ type: "normal", text: "tens" }],
+                                three: [{ type: "normal", text: "tem" }],
+                                four: [{ type: "normal", text: "temos" }],
+                                five: [{ type: "normal", text: "têm" }],
+                              },
+                            },
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
                                   text: "estudar",
                                 },
                               ],
                               conjugations: {
                                 one: [
-                                  { type: "normal", text: "tenho estud" },
+                                  { type: "normal", text: "estud" },
                                   { type: "highlight", text: "ado" },
                                 ],
                                 two: [
-                                  { type: "normal", text: "tens estud" },
+                                  { type: "normal", text: "estud" },
                                   { type: "highlight", text: "ado" },
                                 ],
                                 three: [
-                                  { type: "normal", text: "tem estud" },
+                                  { type: "normal", text: "estud" },
                                   { type: "highlight", text: "ado" },
                                 ],
                                 four: [
-                                  { type: "normal", text: "temos estud" },
+                                  { type: "normal", text: "estud" },
                                   { type: "highlight", text: "ado" },
                                 ],
                                 five: [
-                                  { type: "normal", text: "têm estud" },
+                                  { type: "normal", text: "estud" },
                                   { type: "highlight", text: "ado" },
                                 ],
                               },
@@ -1332,23 +1347,23 @@ function Home() {
                               ],
                               conjugations: {
                                 one: [
-                                  { type: "normal", text: "tenho com" },
+                                  { type: "normal", text: "com" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 two: [
-                                  { type: "normal", text: "tens com" },
+                                  { type: "normal", text: "com" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 three: [
-                                  { type: "normal", text: "tem com" },
+                                  { type: "normal", text: "com" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 four: [
-                                  { type: "normal", text: "temos com" },
+                                  { type: "normal", text: "com" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 five: [
-                                  { type: "normal", text: "têm com" },
+                                  { type: "normal", text: "com" },
                                   { type: "highlight", text: "ido" },
                                 ],
                               },
@@ -1362,23 +1377,23 @@ function Home() {
                               ],
                               conjugations: {
                                 one: [
-                                  { type: "normal", text: "tenho part" },
+                                  { type: "normal", text: "part" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 two: [
-                                  { type: "normal", text: "tens part" },
+                                  { type: "normal", text: "part" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 three: [
-                                  { type: "normal", text: "tem part" },
+                                  { type: "normal", text: "part" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 four: [
-                                  { type: "normal", text: "temos part" },
+                                  { type: "normal", text: "part" },
                                   { type: "highlight", text: "ido" },
                                 ],
                                 five: [
-                                  { type: "normal", text: "têm part" },
+                                  { type: "normal", text: "part" },
                                   { type: "highlight", text: "ido" },
                                 ],
                               },
@@ -1395,30 +1410,30 @@ function Home() {
                               infinite: [
                                 {
                                   type: "normal",
+                                  text: "",
+                                },
+                              ],
+                              conjugations: {
+                                one: [{ type: "normal", text: "tenho" }],
+                                two: [{ type: "normal", text: "tens" }],
+                                three: [{ type: "normal", text: "tem" }],
+                                four: [{ type: "normal", text: "temos" }],
+                                five: [{ type: "normal", text: "têm" }],
+                              },
+                            },
+                            {
+                              infinite: [
+                                {
+                                  type: "normal",
                                   text: "fazer",
                                 },
                               ],
                               conjugations: {
-                                one: [
-                                  { type: "normal", text: "tenho " },
-                                  { type: "highlight", text: "feito" },
-                                ],
-                                two: [
-                                  { type: "normal", text: "tens " },
-                                  { type: "highlight", text: "feito" },
-                                ],
-                                three: [
-                                  { type: "normal", text: "tem " },
-                                  { type: "highlight", text: "feito" },
-                                ],
-                                four: [
-                                  { type: "normal", text: "temos " },
-                                  { type: "highlight", text: "feito" },
-                                ],
-                                five: [
-                                  { type: "normal", text: "têm " },
-                                  { type: "highlight", text: "feito" },
-                                ],
+                                one: [{ type: "highlight", text: "feito" }],
+                                two: [{ type: "highlight", text: "feito" }],
+                                three: [{ type: "highlight", text: "feito" }],
+                                four: [{ type: "highlight", text: "feito" }],
+                                five: [{ type: "highlight", text: "feito" }],
                               },
                             },
                             {
@@ -1429,26 +1444,11 @@ function Home() {
                                 },
                               ],
                               conjugations: {
-                                one: [
-                                  { type: "normal", text: "tenho " },
-                                  { type: "highlight", text: "ido" },
-                                ],
-                                two: [
-                                  { type: "normal", text: "tens " },
-                                  { type: "highlight", text: "ido" },
-                                ],
-                                three: [
-                                  { type: "normal", text: "tem " },
-                                  { type: "highlight", text: "ido" },
-                                ],
-                                four: [
-                                  { type: "normal", text: "temos " },
-                                  { type: "highlight", text: "ido" },
-                                ],
-                                five: [
-                                  { type: "normal", text: "têm " },
-                                  { type: "highlight", text: "ido" },
-                                ],
+                                one: [{ type: "highlight", text: "ido" }],
+                                two: [{ type: "highlight", text: "ido" }],
+                                three: [{ type: "highlight", text: "ido" }],
+                                four: [{ type: "highlight", text: "ido" }],
+                                five: [{ type: "highlight", text: "ido" }],
                               },
                             },
                             {
@@ -1459,26 +1459,11 @@ function Home() {
                                 },
                               ],
                               conjugations: {
-                                one: [
-                                  { type: "normal", text: "tenho " },
-                                  { type: "highlight", text: "aberto" },
-                                ],
-                                two: [
-                                  { type: "normal", text: "tens " },
-                                  { type: "highlight", text: "aberto" },
-                                ],
-                                three: [
-                                  { type: "normal", text: "tem " },
-                                  { type: "highlight", text: "aberto" },
-                                ],
-                                four: [
-                                  { type: "normal", text: "temos " },
-                                  { type: "highlight", text: "aberto" },
-                                ],
-                                five: [
-                                  { type: "normal", text: "têm " },
-                                  { type: "highlight", text: "aberto" },
-                                ],
+                                one: [{ type: "highlight", text: "aberto" }],
+                                two: [{ type: "highlight", text: "aberto" }],
+                                three: [{ type: "highlight", text: "aberto" }],
+                                four: [{ type: "highlight", text: "aberto" }],
+                                five: [{ type: "highlight", text: "aberto" }],
                               },
                             },
                           ]}
