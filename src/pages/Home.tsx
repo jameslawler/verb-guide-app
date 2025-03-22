@@ -487,7 +487,7 @@ function Home() {
                       </div>
                     </Tab>
                     <Tab title="Irregular Verbs">
-                      <div className="flex flex-col">
+                      <div className="flex flex-col gap-8">
                         <div className="-m-1.5 overflow-x-auto">
                           <div className="p-1.5 min-w-full inline-block align-middle">
                             <div className="overflow-hidden">
