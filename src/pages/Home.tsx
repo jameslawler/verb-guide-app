@@ -215,7 +215,7 @@ function Home() {
                       </div>
                     </Tab>
                     <Tab title="Irregular Verbs">
-                      <div className="flex flex-col">
+                      <div className="flex flex-col gap-8">
                         <div className="-m-1.5 overflow-x-auto">
                           <div className="p-1.5 min-w-full inline-block align-middle">
                             <div className="overflow-hidden">
@@ -274,6 +274,316 @@ function Home() {
                                       ],
                                       five: [
                                         { type: "highlight", text: "têm" },
+                                      ],
+                                    },
+                                  },
+                                ]}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-m-1.5 overflow-x-auto">
+                          <div className="p-1.5 min-w-full inline-block align-middle">
+                            <div className="overflow-hidden">
+                              <VerbTable
+                                verbs={[
+                                  {
+                                    infinite: [{ type: "normal", text: "dar" }],
+                                    conjugations: {
+                                      one: [{ type: "highlight", text: "dou" }],
+                                      two: [{ type: "highlight", text: "dás" }],
+                                      three: [
+                                        { type: "highlight", text: "dá" },
+                                      ],
+                                      four: [
+                                        { type: "highlight", text: "damos" },
+                                      ],
+                                      five: [
+                                        { type: "highlight", text: "dão" },
+                                      ],
+                                    },
+                                  },
+                                  {
+                                    infinite: [{ type: "normal", text: "ver" }],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "vejo" },
+                                      ],
+                                      two: [{ type: "highlight", text: "vês" }],
+                                      three: [
+                                        { type: "highlight", text: "vê" },
+                                      ],
+                                      four: [{ type: "normal", text: "vemos" }],
+                                      five: [
+                                        { type: "highlight", text: "veem" },
+                                      ],
+                                    },
+                                  },
+                                  {
+                                    infinite: [{ type: "normal", text: "ler" }],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "leio" },
+                                      ],
+                                      two: [{ type: "highlight", text: "lês" }],
+                                      three: [
+                                        { type: "highlight", text: "lê" },
+                                      ],
+                                      four: [{ type: "normal", text: "lemos" }],
+                                      five: [
+                                        { type: "highlight", text: "leem" },
+                                      ],
+                                    },
+                                  },
+                                ]}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-m-1.5 overflow-x-auto">
+                          <div className="p-1.5 min-w-full inline-block align-middle">
+                            <div className="overflow-hidden">
+                              <VerbTable
+                                verbs={[
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "fazer" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "faço" },
+                                      ],
+                                      two: [{ type: "normal", text: "fazes" }],
+                                      three: [
+                                        { type: "highlight", text: "faz" },
+                                      ],
+                                      four: [
+                                        { type: "normal", text: "fazemos" },
+                                      ],
+                                      five: [{ type: "normal", text: "fazem" }],
+                                    },
+                                  },
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "dizer" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "digo" },
+                                      ],
+                                      two: [{ type: "normal", text: "dizes" }],
+                                      three: [
+                                        { type: "highlight", text: "diz" },
+                                      ],
+                                      four: [
+                                        { type: "normal", text: "dizemos" },
+                                      ],
+                                      five: [{ type: "normal", text: "dizem" }],
+                                    },
+                                  },
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "trazer" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "trago" },
+                                      ],
+                                      two: [{ type: "normal", text: "tazes" }],
+                                      three: [
+                                        { type: "highlight", text: "traz" },
+                                      ],
+                                      four: [
+                                        { type: "normal", text: "trazemos" },
+                                      ],
+                                      five: [
+                                        { type: "normal", text: "trazem" },
+                                      ],
+                                    },
+                                  },
+                                ]}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-m-1.5 overflow-x-auto">
+                          <div className="p-1.5 min-w-full inline-block align-middle">
+                            <div className="overflow-hidden">
+                              <VerbTable
+                                verbs={[
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "saber" },
+                                    ],
+                                    conjugations: {
+                                      one: [{ type: "highlight", text: "sei" }],
+                                      two: [{ type: "normal", text: "sabes" }],
+                                      three: [{ type: "normal", text: "sabe" }],
+                                      four: [
+                                        { type: "normal", text: "sabemos" },
+                                      ],
+                                      five: [{ type: "normal", text: "sabem" }],
+                                    },
+                                  },
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "poder" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "posso" },
+                                      ],
+                                      two: [{ type: "normal", text: "podes" }],
+                                      three: [{ type: "normal", text: "pode" }],
+                                      four: [
+                                        { type: "normal", text: "podemos" },
+                                      ],
+                                      five: [{ type: "normal", text: "podem" }],
+                                    },
+                                  },
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "querer" },
+                                    ],
+                                    conjugations: {
+                                      one: [{ type: "normal", text: "quero" }],
+                                      two: [{ type: "normal", text: "queres" }],
+                                      three: [
+                                        { type: "highlight", text: "quer" },
+                                      ],
+                                      four: [
+                                        { type: "normal", text: "queremos" },
+                                      ],
+                                      five: [
+                                        { type: "normal", text: "querem" },
+                                      ],
+                                    },
+                                  },
+                                ]}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-m-1.5 overflow-x-auto">
+                          <div className="p-1.5 min-w-full inline-block align-middle">
+                            <div className="overflow-hidden">
+                              <VerbTable
+                                verbs={[
+                                  {
+                                    infinite: [{ type: "normal", text: "pôr" }],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "ponho" },
+                                      ],
+                                      two: [
+                                        { type: "highlight", text: "pões" },
+                                      ],
+                                      three: [
+                                        { type: "highlight", text: "põe" },
+                                      ],
+                                      four: [
+                                        { type: "highlight", text: "pomos" },
+                                      ],
+                                      five: [
+                                        { type: "highlight", text: "põem" },
+                                      ],
+                                    },
+                                  },
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "pedir" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "peço" },
+                                      ],
+                                      two: [{ type: "normal", text: "pedes" }],
+                                      three: [{ type: "normal", text: "pede" }],
+                                      four: [
+                                        { type: "normal", text: "pedimos" },
+                                      ],
+                                      five: [{ type: "normal", text: "pedem" }],
+                                    },
+                                  },
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "ouvir" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "ouço" },
+                                      ],
+                                      two: [{ type: "normal", text: "ouves" }],
+                                      three: [{ type: "normal", text: "ouve" }],
+                                      four: [
+                                        { type: "normal", text: "ouvimos" },
+                                      ],
+                                      five: [{ type: "normal", text: "ouvem" }],
+                                    },
+                                  },
+                                ]}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="-m-1.5 overflow-x-auto">
+                          <div className="p-1.5 min-w-full inline-block align-middle">
+                            <div className="overflow-hidden">
+                              <VerbTable
+                                verbs={[
+                                  {
+                                    infinite: [
+                                      { type: "normal", text: "sair" },
+                                    ],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "saio" },
+                                      ],
+                                      two: [
+                                        { type: "highlight", text: "sais" },
+                                      ],
+                                      three: [
+                                        { type: "highlight", text: "sai" },
+                                      ],
+                                      four: [
+                                        { type: "highlight", text: "saímos" },
+                                      ],
+                                      five: [{ type: "normal", text: "saem" }],
+                                    },
+                                  },
+                                  {
+                                    infinite: [{ type: "normal", text: "ir" }],
+                                    conjugations: {
+                                      one: [{ type: "highlight", text: "vou" }],
+                                      two: [
+                                        { type: "highlight", text: "vais" },
+                                      ],
+                                      three: [
+                                        { type: "highlight", text: "vai" },
+                                      ],
+                                      four: [
+                                        { type: "highlight", text: "vamos" },
+                                      ],
+                                      five: [
+                                        { type: "highlight", text: "vão" },
+                                      ],
+                                    },
+                                  },
+                                  {
+                                    infinite: [{ type: "normal", text: "vir" }],
+                                    conjugations: {
+                                      one: [
+                                        { type: "highlight", text: "venho" },
+                                      ],
+                                      two: [
+                                        { type: "highlight", text: "vens" },
+                                      ],
+                                      three: [
+                                        { type: "highlight", text: "vem" },
+                                      ],
+                                      four: [{ type: "normal", text: "vimos" }],
+                                      five: [
+                                        { type: "highlight", text: "vêm" },
                                       ],
                                     },
                                   },
@@ -1055,18 +1365,34 @@ function Home() {
                                 </div>
                                 <ul className="pb-4 list-disc ml-4 text-sm">
                                   <li>
-                                    <span className="font-bold">eu</span> always
-                                    ends in{" "}
-                                    <span className="font-bold">-o</span>
-                                  </li>
-                                  <li>
                                     <span className="font-bold">-ar verbs</span>{" "}
                                     use{" "}
                                     <span className="font-bold">
-                                      -a based endings
+                                      -ava based endings
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span className="font-bold">
+                                      -er/-ir verbs
                                     </span>{" "}
-                                    except for the{" "}
-                                    <span className="font-bold">eu</span>
+                                    use{" "}
+                                    <span className="font-bold">
+                                      -ia based endings
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span className="font-bold">all verbs</span>{" "}
+                                    use{" "}
+                                    <span className="font-bold">
+                                      same ending for eu and ele
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span className="font-bold">nós verbs</span>{" "}
+                                    use{" "}
+                                    <span className="font-bold">
+                                      accent over a / i
+                                    </span>
                                   </li>
                                 </ul>
                               </div>
@@ -1162,6 +1488,17 @@ function Home() {
                                   },
                                 ]}
                               />
+                              <div className="p-4">
+                                <div className="text-sm font-bold">
+                                  Tips to remember
+                                </div>
+                                <ul className="pb-4 list-disc ml-4 text-sm">
+                                  <li>
+                                    There are only 4 irregular verbs in this
+                                    tense
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
