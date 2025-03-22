@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/verb-guide-app" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
