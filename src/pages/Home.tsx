@@ -2167,26 +2167,26 @@ function Home() {
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
                         <p>
-                          The pretérito perfeito do indicativo tense in
-                          Portuguese is used to describe actions that have
-                          occurred in the past.
+                          The imperfeito do conjuntivo is a verb tense in
+                          Portuguese that is used to express hypothetical or
+                          uncertain situations in the past.
                         </p>
                       </div>
                       <div className="pt-4 pb-2 font-bold">Use Cases</div>
                       <ul className="pb-4 list-disc ml-4 text-sm">
                         <li>
-                          Describing an action that happened and completed
+                          Hypothetical Situations / Conditions (If Clauses)
                         </li>
                         <SampleSentence
                           portuguese={[
-                            { type: "normal", text: "Eu " },
-                            { type: "highlight", text: "bebi" },
-                            { type: "normal", text: " água" },
+                            { type: "normal", text: "Se eu " },
+                            { type: "highlight", text: "soubesse" },
+                            { type: "normal", text: ", teria ajudado" },
                           ]}
                           english={[
                             {
                               type: "normal",
-                              text: "I drank water",
+                              text: "If I had known, I would have helped",
                             },
                           ]}
                         />
@@ -2495,26 +2495,49 @@ function Home() {
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
                         <p>
-                          The pretérito perfeito do indicativo tense in
-                          Portuguese is used to describe actions that have
-                          occurred in the past.
+                          The presente do conjuntivo is an important verb tense
+                          in Portuguese that expresses actions or states that
+                          are uncertain, hypothetical, or influenced by
+                          emotions, desires, or doubts.
                         </p>
                       </div>
                       <div className="pt-4 pb-2 font-bold">Use Cases</div>
                       <ul className="pb-4 list-disc ml-4 text-sm">
-                        <li>
-                          Describing an action that happened and completed
-                        </li>
+                        <li>Desires and wishes</li>
                         <SampleSentence
                           portuguese={[
-                            { type: "normal", text: "Eu " },
-                            { type: "highlight", text: "bebi" },
-                            { type: "normal", text: " água" },
+                            { type: "normal", text: "Espero que você " },
+                            { type: "highlight", text: "tenha" },
+                            { type: "normal", text: " um bom dia" },
                           ]}
                           english={[
                             {
                               type: "normal",
-                              text: "I drank water",
+                              text: "I hope you have a good day",
+                            },
+                          ]}
+                        />
+                        <SampleSentence
+                          portuguese={[
+                            { type: "normal", text: "Quero que você me " },
+                            { type: "highlight", text: "ajude" },
+                          ]}
+                          english={[
+                            {
+                              type: "normal",
+                              text: "I want you to help me",
+                            },
+                          ]}
+                        />
+                        <SampleSentence
+                          portuguese={[
+                            { type: "normal", text: "É importante que todos " },
+                            { type: "highlight", text: "participem" },
+                          ]}
+                          english={[
+                            {
+                              type: "normal",
+                              text: "It's important that everyone participates",
                             },
                           ]}
                         />
@@ -2809,26 +2832,39 @@ function Home() {
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
                         <p>
-                          The pretérito perfeito do indicativo tense in
-                          Portuguese is used to describe actions that have
-                          occurred in the past.
+                          The futuro do conjuntivo is a tense in Portuguese that
+                          is used to express actions or events that are
+                          uncertain, hypothetical, or dependent on a condition
+                          in the future.
                         </p>
                       </div>
                       <div className="pt-4 pb-2 font-bold">Use Cases</div>
                       <ul className="pb-4 list-disc ml-4 text-sm">
-                        <li>
-                          Describing an action that happened and completed
-                        </li>
+                        <li>Conditional Sentences</li>
                         <SampleSentence
                           portuguese={[
-                            { type: "normal", text: "Eu " },
-                            { type: "highlight", text: "bebi" },
-                            { type: "normal", text: " água" },
+                            { type: "normal", text: "Se ele " },
+                            { type: "highlight", text: "estudar" },
+                            { type: "normal", text: " mais, passará no exame" },
                           ]}
                           english={[
                             {
                               type: "normal",
-                              text: "I drank water",
+                              text: "If he studies more, he will pass the exam",
+                            },
+                          ]}
+                        />
+                        <li>Future Events Dependent on Certain Conditions</li>
+                        <SampleSentence
+                          portuguese={[
+                            { type: "normal", text: "Quando você " },
+                            { type: "highlight", text: "terminar" },
+                            { type: "normal", text: " o trabalho, me avise" },
+                          ]}
+                          english={[
+                            {
+                              type: "normal",
+                              text: "When you finish the work, let me know",
                             },
                           ]}
                         />
