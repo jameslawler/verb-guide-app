@@ -1,4 +1,14 @@
-import PresentPng from "../assets/present.png";
+import Present1Png from "../assets/presente-1.png";
+import Present2Png from "../assets/presente-2.png";
+import Present3Png from "../assets/presente-3.png";
+import PreteritoPerfeitoIndicativo1Png from "../assets/preterito-perfeito-indicativo-1.png";
+import PreteritoImperfeitoIndicativo1Png from "../assets/preterito-imperfeito-indicativo-1.png";
+import PreteritoImperfeitoIndicativo2Png from "../assets/preterito-imperfeito-indicativo-2.png";
+import PreteritoPerfeitoCompostoIndicativo1Png from "../assets/preterito-perfeito-composto-indicativo-1.png";
+import FuturoIndicativo1Png from "../assets/futuro-do-indicativo-1.png";
+import ImperfeitoConjuntivo1Png from "../assets/imperfeito-conjuntivo-1.png";
+import PresenteConjuntivo1Png from "../assets/presente-conjuntivo-1.png";
+import FuturoConjuntivo1Png from "../assets/futuro-conjuntivo-1.png";
 import Card from "../components/Card";
 import SampleSentence from "../components/SampleSentence";
 import Tab from "../components/Tab";
@@ -24,9 +34,26 @@ function Home() {
             <div className="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-8">
               <div className="flex flex-col gap-4">
                 <Card title="Presente do Indicativo" tag="Fact / Truth">
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Truth or fact</div>
+                      <div className="flex self-center justify-end">
+                        <img src={Present3Png} className="w-4/5" />
+                      </div>
+                    </div>
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Future actions</div>
+                      <div className="flex self-center justify-end">
+                        <img src={Present2Png} className="w-4/5" />
+                      </div>
+                    </div>
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Repeated actions</div>
+                      <div className="flex self-center justify-end">
+                        <img src={Present1Png} className="w-4/5" />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
@@ -43,20 +70,6 @@ function Home() {
                       </div>
                       <div className="pt-4 pb-2 font-bold">Use Cases</div>
                       <ul className="pb-4 list-disc ml-4 text-sm">
-                        <li>Describing actions happening in the present</li>
-                        <SampleSentence
-                          portuguese={[
-                            { type: "normal", text: "Eu " },
-                            { type: "highlight", text: "bebo" },
-                            { type: "normal", text: " água" },
-                          ]}
-                          english={[
-                            {
-                              type: "normal",
-                              text: "I drink water",
-                            },
-                          ]}
-                        />
                         <li>Expressing general truths or facts</li>
                         <SampleSentence
                           portuguese={[
@@ -648,9 +661,17 @@ function Home() {
                   title="Pretérito Perfeito do Indicativo"
                   tag="Fact / Truth"
                 >
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Completed action</div>
+                      <div className="flex self-center justify-end">
+                        <img
+                          src={PreteritoPerfeitoIndicativo1Png}
+                          className="w-4/5"
+                        />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
@@ -1219,9 +1240,28 @@ function Home() {
                   title="Pretérito Imperfeito do Indicativo"
                   tag="Fact / Truth"
                 >
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Ongoing past actions</div>
+                      <div className="flex self-center justify-end">
+                        <img
+                          src={PreteritoImperfeitoIndicativo1Png}
+                          className="w-4/5"
+                        />
+                      </div>
+                    </div>
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">
+                        Habitual past actions
+                      </div>
+                      <div className="flex self-center justify-end">
+                        <img
+                          src={PreteritoImperfeitoIndicativo2Png}
+                          className="w-4/5"
+                        />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
@@ -1558,9 +1598,19 @@ function Home() {
                   title="Pretérito Perfeito Composto do Indicativo"
                   tag="Fact / Truth"
                 >
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">
+                        Past to present action
+                      </div>
+                      <div className="flex self-center justify-end">
+                        <img
+                          src={PreteritoPerfeitoCompostoIndicativo1Png}
+                          className="w-4/5"
+                        />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
@@ -1858,9 +1908,14 @@ function Home() {
                   </Tabs>
                 </Card>
                 <Card title="Futuro do Indicativo" tag="Fact / Truth">
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Future action</div>
+                      <div className="flex self-center justify-end">
+                        <img src={FuturoIndicativo1Png} className="w-4/5" />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
@@ -2160,9 +2215,16 @@ function Home() {
               </div>
               <div className="flex flex-col gap-4">
                 <Card title="Imperfeito do Conjuntivo" tag="Possibility">
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">
+                        Hypothetical past action
+                      </div>
+                      <div className="flex self-center justify-end">
+                        <img src={ImperfeitoConjuntivo1Png} className="w-4/5" />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
@@ -2488,9 +2550,14 @@ function Home() {
                   </Tabs>
                 </Card>
                 <Card title="Presente do Conjuntivo" tag="Possibility">
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Desires / wishes</div>
+                      <div className="flex self-center justify-end">
+                        <img src={PresenteConjuntivo1Png} className="w-4/5" />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
@@ -2825,9 +2892,14 @@ function Home() {
                   </Tabs>
                 </Card>
                 <Card title="Futuro do Conjuntivo" tag="Possibility">
-                  <p className="mt-2 py-4 text-gray-600 dark:text-gray-300">
-                    <img src={PresentPng} className="w-3/4" />
-                  </p>
+                  <div className="flex flex-col gap-6 py-8 px-4 text-sm">
+                    <div className="flex flex-row">
+                      <div className="w-1/4 self-end">Future Possibilities</div>
+                      <div className="flex self-center justify-end">
+                        <img src={FuturoConjuntivo1Png} className="w-4/5" />
+                      </div>
+                    </div>
+                  </div>
                   <Tabs>
                     <Tab title="Overview">
                       <div className="flex flex-col gap-2 text-sm">
